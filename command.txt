@@ -7,3 +7,7 @@ go mod init example.com/first-app
 go build
 
 go run .
+
+go get github.com/Pallinder/go-randomdata
+
+go get
