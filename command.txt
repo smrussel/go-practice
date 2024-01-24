@@ -1,0 +1,9 @@
+# go commands
+
+go run app.go
+
+export GO111MODULE="on" 
+go mod init example.com/first-app
+go build
+
+go run .
