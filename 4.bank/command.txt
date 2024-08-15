@@ -1,0 +1,13 @@
+go run app.go
+go mod init example.com/bank
+go build
+./first-app 
+go run .
+go get github.com/Pallinder/go-randomdata
+
+install all the dependencyfrom the go mod file
+go get
+
+
+
+58

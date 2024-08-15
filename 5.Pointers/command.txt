@@ -1,0 +1,4 @@
+go run app.go
+go mod init example.com/first-app
+go build
+go run .
