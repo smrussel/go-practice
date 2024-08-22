@@ -1,0 +1,8 @@
+go run app.go
+go mod init example.com/first-app
+go build
+./first-app 
+
+bcrypt download command: go get -u golang.org/x/crypto
+
+jwt download command: go get -u github.com/golang-jwt/jwt/v5
