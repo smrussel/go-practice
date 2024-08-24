@@ -1,0 +1,12 @@
+go run app.go
+go mod init example.com/first-app
+go build
+
+# run test command
+go test
+go test -v
+
+# check test coverage
+
+go test -cover
+go test --coverprofile=coverage.out && go tool cover -html=coverage.out
